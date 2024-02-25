@@ -1,2 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Navbar from "./Navbar.svelte";
+    import SectionOne from "./SectionOne.svelte"
+    import SectionTwo from "./SectionTwo.svelte"
+    import SectionThree from "./SectionThree.svelte"
+    import SectionFour from "./SectionFour.svelte"
+    import SectionFive from "./SectionFive.svelte"
+    import Footer from "./Footer.svelte"
+    import "./style.css";
+
+</script>
+
+<Navbar/>
+
+<main>
+    <SectionOne/>
+    <SectionTwo/>
+    <SectionThree/>
+    <SectionFour/>
+    <SectionFive/>
+</main>
+
+<Footer/>
