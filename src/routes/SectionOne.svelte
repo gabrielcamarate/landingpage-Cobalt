@@ -32,6 +32,9 @@
                 <div class="img-leadborad">
                     <img src="/image-leadboard.svg" alt="Imagem de um Leadboard">
                 </div>
+                <div class="particles">
+                    <img src="/particles.png" alt="">
+                </div>
 
             </div>
         </div>
@@ -42,6 +45,26 @@
 <!-- ========================= CSS ========================= -->
 
 <style>
+
+    .contents{
+        position: relative;
+    }
+
+    /* Div [perspective-[1500px]] */
+    .particles {
+        position: absolute;
+        width: 1216px;
+        height: 784.08px;
+        left: 104.5px;
+        top: -420px;
+    
+        mix-blend-mode: normal;
+        opacity: 0.81;
+        border-radius: 0px;
+        z-index: 1;
+    }
+
+
     .img-leadborad {
         display: flex;
         flex-direction: column;
@@ -65,14 +88,12 @@
         font-style: normal;
         font-weight: 700;
         font-size: 71.9px;
-        line-height: 77px;
         letter-spacing: -1.8px;
 
         background-image: linear-gradient(135deg, #ffffff 0%, #71717A 100%);
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
-        z-index: 0;
     }
 
     .paragraph {
@@ -159,7 +180,6 @@
         margin-bottom: 5px;
 
         background: none;
-        z-index: 1;
     }
 
     .ask-more > img {
