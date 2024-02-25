@@ -23,7 +23,6 @@
         margin: 0 auto;
     }
 
-
     .light-effect {
         position: absolute;
         width: 1425px;
@@ -33,6 +32,7 @@
         mix-blend-mode: normal;
         border-radius: 0px;
         opacity: 0.3;
+        z-index: -2;
     }
 
     .navbar {
@@ -56,7 +56,6 @@
         background: none;
         color: #D4D4D8;
         margin-right: 20px;
-        z-index: 1;
     }
 
     .button-navbar {
